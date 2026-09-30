@@ -10,4 +10,4 @@ Use the English description in the single 200-character form field. The Chinese 
 
 > BitBT Pump 是部署在 BNB Smart Chain 上的链上 MEME 市场，支持代币公平发射、联合曲线交易、DEX 迁移、MEME 永续合约及可验证的链上认购。此公开仓库展示 BNB Chain 配置、公开集成代码、开发进度、安全说明和产品路线图。
 
-Repository URL after publication: `https://github.com/blockinitinalforever/bitbt-pump-bnb`
+Repository URL after publication: `https://github.com/bitbt-pump/bitbt-pump-bnb`

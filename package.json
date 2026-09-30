@@ -1,0 +1,14 @@
+{
+  "name": "bitbt-pump-bnb-public",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Public BNB Smart Chain network information and integration utilities for BitBT Pump",
+  "scripts": {
+    "test": "node --test",
+    "verify": "node --check src/bnb-chain.js && node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "project": "BitBT Pump",
+  "website": "https://bitbt.fun",
+  "network": {
+    "id": "bsc",
+    "name": "BNB Smart Chain Mainnet",
+    "chainId": 56,
+    "chainIdHex": "0x38",
+    "nativeCurrency": {
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18
+    },
+    "rpcUrls": ["https://bsc-dataseed.binance.org"],
+    "blockExplorerUrls": ["https://bscscan.com"]
+  },
+  "publicContracts": {
+    "pumpLaunchFactory": "0x3a6038083A27B23433594c3319c66a20085F849E",
+    "perpetualMarket": "0x375dcfa11d02813117830ac6d572f7f8b86b706d",
+    "genesisSubscriptionProxy": "0xcfa2fffbe477ca664d362cb53598d7349955431b",
+    "genesisPaymentTokenUsdt": "0x55d398326f99059ff775485246999027b3197955"
+  },
+  "source": {
+    "pumpLaunchFactory": "https://bitbt.fun/api/pump/v1/token/launch-options?chain_id=bsc",
+    "perpetualMarket": "https://bitbt.fun/api/pump/v1/pump/perpetual/config?chain_id=bsc",
+    "genesisSubscriptionProxy": "https://bitbt.fun/launchpad/bitbt-launch-ui-app.html"
+  }
+}

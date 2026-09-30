@@ -5,8 +5,9 @@ BitBT Pump is an on-chain MEME market deployed on BNB Smart Chain (BSC) at [bitb
 ## Technology Stack
 
 - **Blockchain:** BNB Smart Chain Mainnet (EVM, Chain ID `56`).
+- **Smart contracts:** Solidity `0.8.24`, Foundry, and OpenZeppelin libraries. Contract implementation source is maintained separately.
+- **Live frontend:** Next.js and React. Frontend source is maintained separately.
 - **Public code in this repository:** JavaScript ES modules and Node.js 20 or newer. [`src/bnb-chain.js`](src/bnb-chain.js) reads [`bnbconfig.json`](bnbconfig.json) to provide wallet network parameters, BSC chain detection, and BscScan links. It has no third-party dependencies.
-- **Live application:** The production frontend and Solidity contract implementations are maintained in separate repositories; their source code is not included here.
 
 ## Supported Networks
 
@@ -14,7 +15,7 @@ BitBT Pump is an on-chain MEME market deployed on BNB Smart Chain (BSC) at [bitb
 | --- | --- | --- |
 | BNB Smart Chain Mainnet | `56` / `0x38` | Live deployment |
 
-This repository does not claim a BSC testnet or Ethereum deployment.
+Only the verified BSC mainnet deployment is listed. EVM compatibility does not establish deployment on another network.
 
 ## BNB Chain Configuration
 

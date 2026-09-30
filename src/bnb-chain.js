@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs';
 
+// BitBT Pump wallet integration targets BNB Smart Chain Mainnet (Chain ID 56).
 const config = JSON.parse(
   readFileSync(new URL('../bnbconfig.json', import.meta.url), 'utf8'),
 );

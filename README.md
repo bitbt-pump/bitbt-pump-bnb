@@ -61,6 +61,8 @@ Node.js 20 or newer is required. The command checks JavaScript syntax and runs t
 
 See [ROADMAP.md](ROADMAP.md) for current priorities and planned work, and [CHANGELOG.md](CHANGELOG.md) for public updates. Report security issues through [SECURITY.md](SECURITY.md).
 
+The [BNB Chain submission checklist](GUIDELINE.md) maps each repository guideline to evidence and identifies the remaining source-code limitation.
+
 ## 中文说明
 
 BitBT Pump 是部署在 BNB Smart Chain 的链上 MEME 市场，官网为 [bitbt.fun](https://bitbt.fun)。本仓库公开 BSC 网络配置、部分已公开合约地址、独立的钱包接入示例、开发进度和产品规划。线上产品以官网及链上状态为准。
